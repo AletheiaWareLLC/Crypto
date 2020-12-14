@@ -37,9 +37,10 @@ enum CompressionAlgorithm {
 
 enum EncryptionAlgorithm {
     UNKNOWN_ENCRYPTION = 0;
-    AES_GCM_NOPADDING = 1;
+    AES_128_GCM_NOPADDING = 1;
     PBKDF2WITHHMACSHA1 = 2;
     RSA_ECB_OAEPPADDING = 3;
+    AES_256_GCM_NOPADDING = 4;
 }
 
 enum SignatureAlgorithm {
