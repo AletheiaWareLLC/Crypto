@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/AletheiaWareLLC/cryptogo";
+option go_package = "aletheiaware.com/cryptogo";
 option java_outer_classname = "CryptoProto";
 option java_package = "com.aletheiaware.crypto";
 
